@@ -88,7 +88,7 @@
         default = 2
       }
 	  
-      provider "oci" {
+      provider "ocii" {
         tenancy_ocid     = var.tenancy_ocid
         region           = var.region
       }
