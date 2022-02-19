@@ -5,15 +5,15 @@
 # Arquivo com declaração de variáveis que serão utilizadas na criação de recursos no OCI
 
 
-      variable "compartment_ocid" {
-	     default = "ocid1.tenancy.oc1..aaaaaaaajpcythfl3tcrxvfuh5bdjprx57v2adsqwkzfdy6l3hv6hmcsza7q"
-	  }
-      variable "tenancy_ocid" {
-	  	 default = "ocid1.tenancy.oc1..aaaaaaaajpcythfl3tcrxvfuh5bdjprx57v2adsqwkzfdy6l3hv6hmcsza7q"
-	  }
-      variable "region" {
-	  	 default = "UAE East (Dubai)"
-	  }
+    #   variable "compartment_ocid" {
+	#      default = "ocid1.tenancy.oc1..aaaaaaaajpcythfl3tcrxvfuh5bdjprx57v2adsqwkzfdy6l3hv6hmcsza7q"
+	#   }
+    #   variable "tenancy_ocid" {
+	#   	 default = "ocid1.tenancy.oc1..aaaaaaaajpcythfl3tcrxvfuh5bdjprx57v2adsqwkzfdy6l3hv6hmcsza7q"
+	#   }
+    #   variable "region" {
+	#   	 default = "UAE East (Dubai)"
+	#   }
 	  
       variable "instance_display_name" {
 	  	 default = "testCompute"
