@@ -27,7 +27,7 @@ data "oci_core_images" "this" {
 }
 
 # Listagem de Availability Domain (AD) da região
-data "oci_identity_availability_domain" "ad" {
+data "oci_identity_availability_domain"  {
     compartment_id = "${var.tenancy_ocid}"
     ad_number      = 1
 }
